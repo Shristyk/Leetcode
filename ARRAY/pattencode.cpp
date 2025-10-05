@@ -114,18 +114,18 @@ using namespace std;
 
 //     // inverted numerical half pyramid pattern
 
-//     int n = 5;
+    int n = 5;
 
-//     // outer loop 
-//     for(int row = 0; row < n; row = row +1){
-//         // inner loop
-//         for(int col = 0; col < (n -row); col = col + 1){
-//             cout << col+1 << " ";
+    // outer loop 
+    for(int row = 0; row < n; row = row +1){
+        // inner loop
+        for(int col = 0; col < (n -row); col = col + 1){
+            cout << col+1 << " ";
 
-//         }
-//         cout << endl;
-//     }
-//     return 0;
+        }
+        cout << endl;
+    }
+    return 0;
 
 
 // }
